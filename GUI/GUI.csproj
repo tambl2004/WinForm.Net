@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.105.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.105.0\lib\netstandard2.0\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML.Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1d5f7376574c51ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.Parser.2.0.0\lib\netstandard2.0\ClosedXML.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=3.1.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.3.1.1\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.Framework.3.1.1\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=8.0.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.8.0.3\lib\net462\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.Interfaces.8.0.0\lib\net462\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.barcodes, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.barcodes.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.bouncy-castle-connector, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.bouncy-castle-connector.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.commons, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.commons.9.2.0\lib\net461\itext.commons.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.forms, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.io, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfa, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfua, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.pdfua.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.sign, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.sign.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.styledxmlparser, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.styledxmlparser.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.svg, Version=9.2.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext.9.2.0\lib\net461\itext.svg.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.8.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.8.0.0\lib\net462\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.8.0.0\lib\net462\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.8.0.0\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.3.0.1\lib\netstandard2.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.5.4.0\lib\net46\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Quality, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.Quality.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Snippets, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.Snippets.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.System, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.System.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.WPFonts, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.WPFonts.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RBush, Version=4.0.0.0, Culture=neutral, PublicKeyToken=c77e27b81f4d0187, processorArchitecture=MSIL">
+      <HintPath>..\packages\RBush.Signed.4.0.0\lib\net47\RBush.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Fonts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.0\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Xml, Version=8.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.8.0.2\lib\net462\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBaoCao.Designer.cs">
+      <DependentUpon>FormBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDoiMatKhau.Designer.cs">
+      <DependentUpon>FormDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQuanLyPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQuanLyPhieuNhap.Designer.cs">
+      <DependentUpon>FormQuanLyPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhaCungCap.Designer.cs">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSanPham.Designer.cs">
+      <DependentUpon>FormSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBanHang.Designer.cs">
+      <DependentUpon>FormBanHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCaNhan.Designer.cs">
+      <DependentUpon>FormCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChiTietHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChiTietHoaDon.Designer.cs">
+      <DependentUpon>FormChiTietHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDangKy.Designer.cs">
+      <DependentUpon>FormDangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDangNhap.Designer.cs">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhachHang.Designer.cs">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDon.Designer.cs">
+      <DependentUpon>HoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhanVien.Designer.cs">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNhapHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhapHang.Designer.cs">
+      <DependentUpon>FormNhapHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChiTietPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChiTietPhieuNhap.Designer.cs">
+      <DependentUpon>FormChiTietPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrangChu.Designer.cs">
+      <DependentUpon>FormTrangChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormQuanLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQuanLy.Designer.cs">
+      <DependentUpon>FormQuanLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBaoCao.resx">
+      <DependentUpon>FormBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDoiMatKhau.resx">
+      <DependentUpon>FormDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQuanLyPhieuNhap.resx">
+      <DependentUpon>FormQuanLyPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhaCungCap.resx">
+      <DependentUpon>FormNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChiTietHoaDon.resx">
+      <DependentUpon>FormChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSanPham.resx">
+      <DependentUpon>FormSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBanHang.resx">
+      <DependentUpon>FormBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCaNhan.resx">
+      <DependentUpon>FormCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDangKy.resx">
+      <DependentUpon>FormDangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDangNhap.resx">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon.resx">
+      <DependentUpon>HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhanVien.resx">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhapHang.resx">
+      <DependentUpon>FormNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChiTietPhieuNhap.resx">
+      <DependentUpon>FormChiTietPhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTrangChu.resx">
+      <DependentUpon>FormTrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FormQuanLy.resx">
+      <DependentUpon>FormQuanLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Content\bold-reports\bootstrap4\icons\ejicons.eot" />
+    <None Include="Content\bold-reports\bootstrap4\icons\ejicons.ttf" />
+    <None Include="Content\bold-reports\bootstrap4\icons\ejicons.woff" />
+    <None Include="Content\bold-reports\common-images\ejicons.eot" />
+    <None Include="Content\bold-reports\common-images\ejicons.ttf" />
+    <None Include="Content\bold-reports\common-images\ejicons.woff" />
+    <None Include="Content\bold-reports\material\icons\ejicons.eot" />
+    <None Include="Content\bold-reports\material\icons\ejicons.ttf" />
+    <None Include="Content\bold-reports\material\icons\ejicons.woff" />
+    <None Include="Content\bold-reports\office-365\icons\ejicons.eot" />
+    <None Include="Content\bold-reports\office-365\icons\ejicons.ttf" />
+    <None Include="Content\bold-reports\office-365\icons\ejicons.woff" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{5c40a024-ad5d-4fda-8a39-91bac7e6492f}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{694C85E3-98F7-41CB-9AE0-0814A9D81077}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{b3417797-f6da-4420-bdc0-de0d464907b8}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.bootstrap.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.bootstrap.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.bootstrap.min.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.bootstrap4.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.bootstrap4.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.bootstrap4.min.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.material.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.material.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.material.min.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.min.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.office-365.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.office-365.css" />
+    <Content Include="Content\bold-reports\bold.reportdesigner.core.office-365.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.bootstrap.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.bootstrap.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.bootstrap.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.bootstrap4.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.bootstrap4.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.bootstrap4.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.material.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.material.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.material.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.office-365.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.office-365.css" />
+    <Content Include="Content\bold-reports\bold.widgets.core.office-365.min.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.autocomplete.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.button.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.checkbox.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.colorpicker.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.combobox.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.datepicker.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.daterangepicker.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.datetimepicker.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.dialog.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.dropdownlist.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.editor.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.excelfilter.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.grid.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.listbox.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.listview.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.menu.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.pager.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.radiobutton.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.rangescrollbar.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.reportdesigner.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.reportdesigner.min.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.reportdesigner.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.reportdesigner.theme.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.reportdesigner.theme.min.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.reports.all.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.reports.all.min.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.reportviewer.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.scroller.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.slider.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.splitter.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.tab.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.theme.min.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.timepicker.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.toolbar.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.tooltip.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.treeview.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.uploadbox.css" />
+    <Content Include="Content\bold-reports\bootstrap-theme\bold.waitingpopup.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.autocomplete.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.button.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.checkbox.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.colorpicker.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.combobox.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.datepicker.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.daterangepicker.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.datetimepicker.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.dialog.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.dropdownlist.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.editor.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.excelfilter.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.grid.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.listbox.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.listview.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.menu.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.pager.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.radiobutton.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.rangescrollbar.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.reportdesigner.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.reportdesigner.min.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.reportdesigner.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.reportdesigner.theme.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.reportdesigner.theme.min.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.reports.all.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.reports.all.min.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.reportviewer.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.scroller.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.slider.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.splitter.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.tab.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.theme.min.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.timepicker.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.toolbar.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.tooltip.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.treeview.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.uploadbox.css" />
+    <Content Include="Content\bold-reports\bootstrap4\bold.waitingpopup.css" />
+    <Content Include="Content\bold-reports\bootstrap4\icons\ejicons.svg" />
+    <Content Include="Content\bold-reports\bootstrap4\images\ajax-loader.gif" />
+    <Content Include="Content\bold-reports\bootstrap4\images\checkedtick.png" />
+    <Content Include="Content\bold-reports\bootstrap4\images\drop-sibling.png" />
+    <Content Include="Content\bold-reports\bootstrap4\images\rating-star.png" />
+    <Content Include="Content\bold-reports\bootstrap4\images\rotator-icon.png" />
+    <Content Include="Content\bold-reports\bootstrap4\images\slider-tick.png" />
+    <Content Include="Content\bold-reports\bootstrap4\images\waitingpopup.gif" />
+    <Content Include="Content\bold-reports\common-images\ejicons.svg" />
+    <Content Include="Content\bold-reports\common-images\grid\dropPointer.cur" />
+    <Content Include="Content\bold-reports\common-images\maps\Arrow_Bootom.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Arrow_Bootom_hover.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Arrow_Left.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Arrow_Left_hover.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Arrow_Right.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Arrow_Right_hover.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Arrow_Top.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Arrow_Top_hover.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Bar.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Home.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Home_hover.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Home_hover_lime.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Home_hover_saffron.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Home_lime.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Home_saffron.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Navicatior.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Zoom-In.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Zoom-In_hover.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Zoom-out.png" />
+    <Content Include="Content\bold-reports\common-images\maps\Zoom-out_hover.png" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.autocomplete.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.button.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.checkbox.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.colorpicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.combobox.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.datepicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.daterangepicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.datetimepicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.dialog.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.dropdownlist.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.editor.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.excelfilter.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.grid.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.listbox.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.listview.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.menu.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.pager.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.radiobutton.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.rangescrollbar.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.reportdesigner.compatibility.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.reportdesigner.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.reportdesigner.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.reportdesigner.theme.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.reportdesigner.theme.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.reports.all.compatibility.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.reports.all.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.reportviewer.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.scroller.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.slider.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.splitter.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.tab.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.theme.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.timepicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.toolbar.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.tooltip.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.treeview.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.uploadbox.css" />
+    <Content Include="Content\bold-reports\high-contrast-01\bold.waitingpopup.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.autocomplete.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.button.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.checkbox.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.colorpicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.combobox.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.datepicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.daterangepicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.datetimepicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.dialog.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.dropdownlist.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.editor.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.excelfilter.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.grid.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.listbox.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.listview.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.menu.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.pager.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.radiobutton.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.rangescrollbar.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.reportdesigner.compatibility.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.reportdesigner.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.reportdesigner.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.reportdesigner.theme.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.reportdesigner.theme.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.reports.all.compatibility.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.reports.all.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.reportviewer.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.scroller.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.slider.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.splitter.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.tab.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.theme.min.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.timepicker.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.toolbar.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.tooltip.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.treeview.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.uploadbox.css" />
+    <Content Include="Content\bold-reports\high-contrast-02\bold.waitingpopup.css" />
+    <Content Include="Content\bold-reports\material\bold.autocomplete.css" />
+    <Content Include="Content\bold-reports\material\bold.button.css" />
+    <Content Include="Content\bold-reports\material\bold.checkbox.css" />
+    <Content Include="Content\bold-reports\material\bold.colorpicker.css" />
+    <Content Include="Content\bold-reports\material\bold.combobox.css" />
+    <Content Include="Content\bold-reports\material\bold.datepicker.css" />
+    <Content Include="Content\bold-reports\material\bold.daterangepicker.css" />
+    <Content Include="Content\bold-reports\material\bold.datetimepicker.css" />
+    <Content Include="Content\bold-reports\material\bold.dialog.css" />
+    <Content Include="Content\bold-reports\material\bold.dropdownlist.css" />
+    <Content Include="Content\bold-reports\material\bold.editor.css" />
+    <Content Include="Content\bold-reports\material\bold.excelfilter.css" />
+    <Content Include="Content\bold-reports\material\bold.grid.css" />
+    <Content Include="Content\bold-reports\material\bold.listbox.css" />
+    <Content Include="Content\bold-reports\material\bold.listview.css" />
+    <Content Include="Content\bold-reports\material\bold.menu.css" />
+    <Content Include="Content\bold-reports\material\bold.pager.css" />
+    <Content Include="Content\bold-reports\material\bold.radiobutton.css" />
+    <Content Include="Content\bold-reports\material\bold.rangescrollbar.css" />
+    <Content Include="Content\bold-reports\material\bold.reportdesigner.compatibility.min.css" />
+    <Content Include="Content\bold-reports\material\bold.reportdesigner.min.css" />
+    <Content Include="Content\bold-reports\material\bold.reportdesigner.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\material\bold.reportdesigner.theme.css" />
+    <Content Include="Content\bold-reports\material\bold.reportdesigner.theme.min.css" />
+    <Content Include="Content\bold-reports\material\bold.reports.all.compatibility.min.css" />
+    <Content Include="Content\bold-reports\material\bold.reports.all.min.css" />
+    <Content Include="Content\bold-reports\material\bold.reportviewer.css" />
+    <Content Include="Content\bold-reports\material\bold.scroller.css" />
+    <Content Include="Content\bold-reports\material\bold.slider.css" />
+    <Content Include="Content\bold-reports\material\bold.splitter.css" />
+    <Content Include="Content\bold-reports\material\bold.tab.css" />
+    <Content Include="Content\bold-reports\material\bold.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\material\bold.theme.min.css" />
+    <Content Include="Content\bold-reports\material\bold.timepicker.css" />
+    <Content Include="Content\bold-reports\material\bold.toolbar.css" />
+    <Content Include="Content\bold-reports\material\bold.tooltip.css" />
+    <Content Include="Content\bold-reports\material\bold.treeview.css" />
+    <Content Include="Content\bold-reports\material\bold.uploadbox.css" />
+    <Content Include="Content\bold-reports\material\bold.waitingpopup.css" />
+    <Content Include="Content\bold-reports\material\icons\ejicons.svg" />
+    <Content Include="Content\bold-reports\material\images\ajax-loader.gif" />
+    <Content Include="Content\bold-reports\material\images\checkedtick.png" />
+    <Content Include="Content\bold-reports\material\images\drop-sibling.png" />
+    <Content Include="Content\bold-reports\material\images\rating-star.png" />
+    <Content Include="Content\bold-reports\material\images\rotator-icon.png" />
+    <Content Include="Content\bold-reports\material\images\slider-tick.png" />
+    <Content Include="Content\bold-reports\material\images\waitingpopup.gif" />
+    <Content Include="Content\bold-reports\office-365\bold.autocomplete.css" />
+    <Content Include="Content\bold-reports\office-365\bold.button.css" />
+    <Content Include="Content\bold-reports\office-365\bold.checkbox.css" />
+    <Content Include="Content\bold-reports\office-365\bold.colorpicker.css" />
+    <Content Include="Content\bold-reports\office-365\bold.combobox.css" />
+    <Content Include="Content\bold-reports\office-365\bold.datepicker.css" />
+    <Content Include="Content\bold-reports\office-365\bold.daterangepicker.css" />
+    <Content Include="Content\bold-reports\office-365\bold.datetimepicker.css" />
+    <Content Include="Content\bold-reports\office-365\bold.dialog.css" />
+    <Content Include="Content\bold-reports\office-365\bold.dropdownlist.css" />
+    <Content Include="Content\bold-reports\office-365\bold.editor.css" />
+    <Content Include="Content\bold-reports\office-365\bold.excelfilter.css" />
+    <Content Include="Content\bold-reports\office-365\bold.grid.css" />
+    <Content Include="Content\bold-reports\office-365\bold.listbox.css" />
+    <Content Include="Content\bold-reports\office-365\bold.listview.css" />
+    <Content Include="Content\bold-reports\office-365\bold.menu.css" />
+    <Content Include="Content\bold-reports\office-365\bold.pager.css" />
+    <Content Include="Content\bold-reports\office-365\bold.radiobutton.css" />
+    <Content Include="Content\bold-reports\office-365\bold.rangescrollbar.css" />
+    <Content Include="Content\bold-reports\office-365\bold.reportdesigner.compatibility.min.css" />
+    <Content Include="Content\bold-reports\office-365\bold.reportdesigner.min.css" />
+    <Content Include="Content\bold-reports\office-365\bold.reportdesigner.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\office-365\bold.reportdesigner.theme.css" />
+    <Content Include="Content\bold-reports\office-365\bold.reportdesigner.theme.min.css" />
+    <Content Include="Content\bold-reports\office-365\bold.reports.all.compatibility.min.css" />
+    <Content Include="Content\bold-reports\office-365\bold.reports.all.min.css" />
+    <Content Include="Content\bold-reports\office-365\bold.reportviewer.css" />
+    <Content Include="Content\bold-reports\office-365\bold.scroller.css" />
+    <Content Include="Content\bold-reports\office-365\bold.slider.css" />
+    <Content Include="Content\bold-reports\office-365\bold.splitter.css" />
+    <Content Include="Content\bold-reports\office-365\bold.tab.css" />
+    <Content Include="Content\bold-reports\office-365\bold.theme.compatibility.min.css" />
+    <Content Include="Content\bold-reports\office-365\bold.theme.min.css" />
+    <Content Include="Content\bold-reports\office-365\bold.timepicker.css" />
+    <Content Include="Content\bold-reports\office-365\bold.toolbar.css" />
+    <Content Include="Content\bold-reports\office-365\bold.tooltip.css" />
+    <Content Include="Content\bold-reports\office-365\bold.treeview.css" />
+    <Content Include="Content\bold-reports\office-365\bold.uploadbox.css" />
+    <Content Include="Content\bold-reports\office-365\bold.waitingpopup.css" />
+    <Content Include="Content\bold-reports\office-365\icons\ejicons.svg" />
+    <Content Include="Content\bold-reports\office-365\images\ajax-loader.gif" />
+    <Content Include="Content\bold-reports\office-365\images\checkedtick.png" />
+    <Content Include="Content\bold-reports\office-365\images\drop-sibling.png" />
+    <Content Include="Content\bold-reports\office-365\images\Rating_Active.png" />
+    <Content Include="Content\bold-reports\office-365\images\Rating_Clear.png" />
+    <Content Include="Content\bold-reports\office-365\images\Rating_Default.png" />
+    <Content Include="Content\bold-reports\office-365\images\rotator-icon.png" />
+    <Content Include="Content\bold-reports\office-365\images\slider-tick.png" />
+    <Content Include="Content\bold-reports\office-365\images\waitingpopup.gif" />
+    <Content Include="Content\bold-reports\v2.0\bootstrap-dark\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\bootstrap-dark\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\bootstrap-light\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\bootstrap-light\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\bootstrap5.3-dark\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\bootstrap5.3-dark\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\common-images\dataset.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\datasource.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\defaultimage.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\draganddrop.svg" />
+    <Content Include="Content\bold-reports\v2.0\common-images\dragtable.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\emptystate.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\error.svg" />
+    <Content Include="Content\bold-reports\v2.0\common-images\folder.svg" />
+    <Content Include="Content\bold-reports\v2.0\common-images\image.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\moveicon.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\nodata.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\parameter.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\reports.svg" />
+    <Content Include="Content\bold-reports\v2.0\common-images\resizeicon.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\settingicon.png" />
+    <Content Include="Content\bold-reports\v2.0\common-images\warning.svg" />
+    <Content Include="Content\bold-reports\v2.0\fluent-dark\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\fluent-dark\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\fluent-light\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\fluent-light\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\material-dark\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\material-dark\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\material-light\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\material-light\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\material3-dark\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\material3-dark\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\material3-light\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\material3-light\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\tailwind-dark\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\tailwind-dark\bold.report-viewer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\tailwind-light\bold.report-designer.min.css" />
+    <Content Include="Content\bold-reports\v2.0\tailwind-light\bold.report-viewer.min.css" />
+    <None Include="Resources\eye_open.png" />
+    <None Include="Resources\eye_closed.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\xoa.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\clear.png" />
+    <Content Include="Resources\them.jpg" />
+    <None Include="Resources\update.png" />
+    <None Include="Resources\them1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

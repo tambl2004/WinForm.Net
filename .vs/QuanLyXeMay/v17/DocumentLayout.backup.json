@@ -1,0 +1,679 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|c:\\users\\tam\\source\\repos\\quanlyxemay2\\gui\\formdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|c:\\users\\tam\\source\\repos\\quanlyxemay2\\gui\\formdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|c:\\users\\tam\\source\\repos\\quanlyxemay2\\gui\\formcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|c:\\users\\tam\\source\\repos\\quanlyxemay2\\gui\\formnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|c:\\users\\tam\\source\\repos\\quanlyxemay2\\gui\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|c:\\users\\tam\\source\\repos\\quanlyxemay2\\gui\\formquanlyphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formquanlyphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formquanlyphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formquanlyphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C40A024-AD5D-4FDA-8A39-91BAC7E6492F}|BUS\\BUS.csproj|c:\\users\\tam\\source\\repos\\quanlyxemay2\\bus\\baocaobus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C40A024-AD5D-4FDA-8A39-91BAC7E6492F}|BUS\\BUS.csproj|solutionrelative:bus\\baocaobus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|c:\\users\\tam\\source\\repos\\quanlyxemay2\\gui\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|c:\\users\\tam\\source\\repos\\quanlyxemay2\\gui\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formbanhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formbanhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formchitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formchitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\gui\\formquanly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C033D47-FE4E-44CE-BD4B-F70243B3C6A6}|GUI\\GUI.csproj|solutionrelative:gui\\formquanly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C40A024-AD5D-4FDA-8A39-91BAC7E6492F}|BUS\\BUS.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\bus\\nhanvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C40A024-AD5D-4FDA-8A39-91BAC7E6492F}|BUS\\BUS.csproj|solutionrelative:bus\\nhanvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694C85E3-98F7-41CB-9AE0-0814A9D81077}|DAO\\DAO.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\dao\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694C85E3-98F7-41CB-9AE0-0814A9D81077}|DAO\\DAO.csproj|solutionrelative:dao\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3417797-F6DA-4420-BDC0-DE0D464907B8}|DTO\\DTO.csproj|C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\dto\\xemay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3417797-F6DA-4420-BDC0-DE0D464907B8}|DTO\\DTO.csproj|solutionrelative:dto\\xemay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhanVien.cs",
+              "RelativeDocumentMoniker": "GUI\\FormNhanVien.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhanVien.cs",
+              "RelativeToolTip": "GUI\\FormNhanVien.cs",
+              "ViewState": "AgIAAIEBAAAAAAAAAAAAAJYBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:18:55.925Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormKhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormKhachHang.cs",
+              "RelativeDocumentMoniker": "GUI\\FormKhachHang.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormKhachHang.cs",
+              "RelativeToolTip": "GUI\\FormKhachHang.cs",
+              "ViewState": "AgIAADgBAAAAAAAAAAAgwFMBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:20:33.973Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\HoaDon.cs",
+              "RelativeDocumentMoniker": "GUI\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\HoaDon.cs [Design]",
+              "RelativeToolTip": "GUI\\HoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:30:40.337Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormQuanLy.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLy.cs",
+              "RelativeDocumentMoniker": "GUI\\FormQuanLy.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLy.cs [Design]",
+              "RelativeToolTip": "GUI\\FormQuanLy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:31:17.657Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormTrangChu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormTrangChu.cs",
+              "RelativeDocumentMoniker": "GUI\\FormTrangChu.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormTrangChu.cs [Design]",
+              "RelativeToolTip": "GUI\\FormTrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:30:39.328Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormDoiMatKhau.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDoiMatKhau.cs",
+              "RelativeDocumentMoniker": "GUI\\FormDoiMatKhau.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDoiMatKhau.cs",
+              "RelativeToolTip": "GUI\\FormDoiMatKhau.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwF0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:41:32.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormDoiMatKhau.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDoiMatKhau.cs",
+              "RelativeDocumentMoniker": "GUI\\FormDoiMatKhau.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDoiMatKhau.cs [Design]",
+              "RelativeToolTip": "GUI\\FormDoiMatKhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:41:31.894Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormCaNhan.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormCaNhan.cs",
+              "RelativeDocumentMoniker": "GUI\\FormCaNhan.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormCaNhan.cs",
+              "RelativeToolTip": "GUI\\FormCaNhan.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAcwL4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:39:52.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormSanPham.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormSanPham.cs",
+              "RelativeDocumentMoniker": "GUI\\FormSanPham.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormSanPham.cs [Design]",
+              "RelativeToolTip": "GUI\\FormSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:08:33.212Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormSanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormSanPham.cs",
+              "RelativeDocumentMoniker": "GUI\\FormSanPham.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormSanPham.cs",
+              "RelativeToolTip": "GUI\\FormSanPham.cs",
+              "ViewState": "AgIAACoCAAAAAAAAAAAkwD8CAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:08:34.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormCaNhan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormCaNhan.cs",
+              "RelativeDocumentMoniker": "GUI\\FormCaNhan.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormCaNhan.cs [Design]",
+              "RelativeToolTip": "GUI\\FormCaNhan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:25:00.928Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormKhachHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormKhachHang.cs",
+              "RelativeDocumentMoniker": "GUI\\FormKhachHang.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormKhachHang.cs [Design]",
+              "RelativeToolTip": "GUI\\FormKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:22:58.275Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhanVien.cs",
+              "RelativeDocumentMoniker": "GUI\\FormNhanVien.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhanVien.cs [Design]",
+              "RelativeToolTip": "GUI\\FormNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:28:52.827Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormNhaCungCap.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhaCungCap.cs",
+              "RelativeDocumentMoniker": "GUI\\FormNhaCungCap.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhaCungCap.cs",
+              "RelativeToolTip": "GUI\\FormNhaCungCap.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAEwFUBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:51:20.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\HoaDon.cs",
+              "RelativeDocumentMoniker": "GUI\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\HoaDon.cs",
+              "RelativeToolTip": "GUI\\HoaDon.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAA1wKUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:30:42.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormNhaCungCap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhaCungCap.cs",
+              "RelativeDocumentMoniker": "GUI\\FormNhaCungCap.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhaCungCap.cs [Design]",
+              "RelativeToolTip": "GUI\\FormNhaCungCap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:28:16.001Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormBanHang.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBanHang.cs",
+              "RelativeDocumentMoniker": "GUI\\FormBanHang.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBanHang.cs",
+              "RelativeToolTip": "GUI\\FormBanHang.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAowGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:44:19.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormBanHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBanHang.cs",
+              "RelativeDocumentMoniker": "GUI\\FormBanHang.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBanHang.cs [Design]",
+              "RelativeToolTip": "GUI\\FormBanHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:24:06.544Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormQuanLyPhieuNhap.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLyPhieuNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\FormQuanLyPhieuNhap.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLyPhieuNhap.cs",
+              "RelativeToolTip": "GUI\\FormQuanLyPhieuNhap.cs",
+              "ViewState": "AgIAADwBAAAAAAAAAAAUwFgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:24:37.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormNhapHang.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhapHang.cs",
+              "RelativeDocumentMoniker": "GUI\\FormNhapHang.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhapHang.cs",
+              "RelativeToolTip": "GUI\\FormNhapHang.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAwwN0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:29:44.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormNhapHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhapHang.cs",
+              "RelativeDocumentMoniker": "GUI\\FormNhapHang.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormNhapHang.cs [Design]",
+              "RelativeToolTip": "GUI\\FormNhapHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:29:40.514Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormQuanLyPhieuNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLyPhieuNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\FormQuanLyPhieuNhap.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLyPhieuNhap.cs [Design]",
+              "RelativeToolTip": "GUI\\FormQuanLyPhieuNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:30:03.902Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaoCaoBUS.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\BUS\\BaoCaoBUS.cs",
+              "RelativeDocumentMoniker": "BUS\\BaoCaoBUS.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\BUS\\BaoCaoBUS.cs",
+              "RelativeToolTip": "BUS\\BaoCaoBUS.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:41:50.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FormBaoCao.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBaoCao.cs",
+              "RelativeDocumentMoniker": "GUI\\FormBaoCao.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBaoCao.cs",
+              "RelativeToolTip": "GUI\\FormBaoCao.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:41:33.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FormBaoCao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBaoCao.cs",
+              "RelativeDocumentMoniker": "GUI\\FormBaoCao.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBaoCao.cs [Design]",
+              "RelativeToolTip": "GUI\\FormBaoCao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:24:32.07Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FormQuanLy.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLy.cs",
+              "RelativeDocumentMoniker": "GUI\\FormQuanLy.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLy.cs",
+              "RelativeToolTip": "GUI\\FormQuanLy.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:31:19.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\Admin.cs",
+              "RelativeDocumentMoniker": "GUI\\Admin.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\Admin.cs",
+              "RelativeToolTip": "GUI\\Admin.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowBUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:57:24.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Admin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\Admin.cs",
+              "RelativeDocumentMoniker": "GUI\\Admin.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\Admin.cs [Design]",
+              "RelativeToolTip": "GUI\\Admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:57:22.558Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FormDangKy.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDangKy.cs",
+              "RelativeDocumentMoniker": "GUI\\FormDangKy.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDangKy.cs",
+              "RelativeToolTip": "GUI\\FormDangKy.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwDAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:24:16.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FormDangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\FormDangNhap.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDangNhap.cs",
+              "RelativeToolTip": "GUI\\FormDangNhap.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:26:45.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FormDangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\FormDangNhap.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDangNhap.cs [Design]",
+              "RelativeToolTip": "GUI\\FormDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:26:43.651Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FormDangKy.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDangKy.cs",
+              "RelativeDocumentMoniker": "GUI\\FormDangKy.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormDangKy.cs [Design]",
+              "RelativeToolTip": "GUI\\FormDangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:28:08.354Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FormBanHang.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBanHang.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\FormBanHang.Designer.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormBanHang.Designer.cs",
+              "RelativeToolTip": "GUI\\FormBanHang.Designer.cs",
+              "ViewState": "AgIAADoBAAAAAAAAAAAMwEsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:43:28.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FormChiTietPhieuNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormChiTietPhieuNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\FormChiTietPhieuNhap.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormChiTietPhieuNhap.cs [Design]",
+              "RelativeToolTip": "GUI\\FormChiTietPhieuNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:27:10.386Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FormChiTietHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormChiTietHoaDon.cs",
+              "RelativeDocumentMoniker": "GUI\\FormChiTietHoaDon.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormChiTietHoaDon.cs [Design]",
+              "RelativeToolTip": "GUI\\FormChiTietHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:25:03.109Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FormQuanLy.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLy.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\FormQuanLy.Designer.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\GUI\\FormQuanLy.Designer.cs",
+              "RelativeToolTip": "GUI\\FormQuanLy.Designer.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowGMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:43:43.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NhanVienDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\DAO\\NhanVienDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\NhanVienDAO.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\DAO\\NhanVienDAO.cs",
+              "RelativeToolTip": "DAO\\NhanVienDAO.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAqwFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:28:49.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "XeMay.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\DTO\\XeMay.cs",
+              "RelativeDocumentMoniker": "DTO\\XeMay.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\DTO\\XeMay.cs",
+              "RelativeToolTip": "DTO\\XeMay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:28:37.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NhanVienBUS.cs",
+              "DocumentMoniker": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\BUS\\NhanVienBus.cs",
+              "RelativeDocumentMoniker": "BUS\\NhanVienBus.cs",
+              "ToolTip": "C:\\Users\\Tam\\source\\repos\\QuanLyXeMay2\\BUS\\NhanVienBus.cs",
+              "RelativeToolTip": "BUS\\NhanVienBus.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA3wCwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:26:58.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
